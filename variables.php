@@ -34,8 +34,8 @@
 
 	$string1 = 'Hello';
 	$string2 = 'World';
-	$greeting = $string1 .' '. $string2.'!';
-	$greeting2 = "$string1 $string2";
+	$greeting = $string1 .' '. $string2.'!'; #Use a dot to concatnate
+	$greeting2 = "$string1 $string2"; #Using double quotes "" will parse the variable
 
 	$string3 = "They\"re Here";
 
