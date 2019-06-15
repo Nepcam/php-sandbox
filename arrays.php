@@ -23,7 +23,12 @@
 
     // ASSOCIATED ARRAYS
     $people = array('Cam' => 42, 'Liam' => 12, 'Hingaroa' => 62);
-    $ids = [21 => 'Cam']
+    $ids = [21 => 'Cam'];
 
+    // echo $people['Cam]
     // echo $ids[21] // output = 'Cam'
+    // $people['Mason'] = 19;
+    // echo $people['Mason'];
+    // print_r($people);
+    var_dump($people)
 ?>
