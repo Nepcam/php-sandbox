@@ -10,10 +10,10 @@
     $people = array('Mason', 'Darius', 'Liam');
     $ids = array(23, 55, 12);
     $cars = ['Honda', 'Toyota', 'Ford'];
-    $cars[3] = 'Chevy';
+    $cars[3] = 'Chevy'; // adding 'Chevy' to the $car array in [3] position
     $cars[] = 'BMW';
 
-    // echo count($cars);
+    // echo count($cars); // Counts items in the $cars array
     // print_r('cars');
     // var_dump($cars);
     
@@ -30,5 +30,14 @@
     // $people['Mason'] = 19;
     // echo $people['Mason'];
     // print_r($people);
-    var_dump($people)
+    // var_dump($people)
+
+    // MULTI-DIMENSIONAL
+    $cars = array(
+      array('Honda', 20, 10),
+      array('Toyota', 30, 20),
+      array('Ford', 23, 12)
+    );
+
+    echo $cars[1][0]; // output = 'Toyota'
 ?>
